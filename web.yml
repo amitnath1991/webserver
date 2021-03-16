@@ -6,5 +6,5 @@
     - name: install webserver
       yum:
         name: httpd
-        state: installed
+        state: present
         enabled: yes
